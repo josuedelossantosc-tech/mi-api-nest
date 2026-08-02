@@ -1,5 +1,5 @@
 @Get()
 findAll() {
-  console.log('--- Alguien está consultando todas las tareas ---');
+  console.log('--- Log desde main ---');
   return this.tasksService.findAll();
 }
